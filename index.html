@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Bistro Cafe
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://font.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	
+	<header>
+		<nev>
+			<div class="row clearfix">
+				<img src="images/s1.JPG" clilass="logo">
+
+				<ul class="main-nav animated slideInDown" id="check-class">
+					<li><a href="#">Order DELIVERY</a></li>
+					<li><a href="#">How DELIVERY</a></li>
+					<li><a href="#">CHECK DELIVERY</a></li>
+					<li><a href="#">SIGN UP</a></li>
+				</ul>
+				<a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"> </i></a>
+				
+			</div>
+		</nev>
+
+		<div class="main-con  tent-header">
+			<h1>WELCOME TO <span>BISTRO CAFE</span>.<br>
+				HOUSE OF FOOD LOVER.</h1>
+
+			<a href="#" class="btn btn-full"> Click to Order</a>
+
+			<a href="#" class="btn btn-nav">Show More</a>
+		</div>
+	</header>
+
+		<script type="text/javascript">
+
+			function slideshow(){
+				var x = document.getElementById('check-class');
+				if(x.style.display === "none"){
+					x.style.display="block";
+				}else{
+					x.style.display="none";
+				}
+
+		}
+</script>
+</body>
+</html>
